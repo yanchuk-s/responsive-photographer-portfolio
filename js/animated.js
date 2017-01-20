@@ -69,7 +69,7 @@ $("#bright").animated("slideInLeft", "bounceOutDown");
 
 $(".PortfolioShowcase h1").animated("lightSpeedIn", "bounceOutDown");
 
-$(".PortfolioShowcase p").animated("rotateIn", "bounceOutDown");
+$(".PortfolioShowcase p").animated("fadeIn", "bounceOutDown");
 
 // SLIDER PORTFOLIO 
 

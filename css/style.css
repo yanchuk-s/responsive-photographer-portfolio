@@ -136,7 +136,8 @@ a, a:hover{text-decoration: none;}
 
     margin-bottom: auto;
     width: 96%;
-  	height: 96%;
+  	
+    height: auto;
 	background: white url(../img/bg1.png) no-repeat center ;
 	background-size: cover;
 	-moz-background-size: cover;
@@ -206,13 +207,16 @@ a, a:hover{text-decoration: none;}
 
 /*------ Home PAGE MEDIA ---------*/
 @media screen and (min-width:768px){
-    .homesection {text-align: left;}
+    .homesection {text-align: left; }
     .homesection h1{font-size: 2.2em; margin-top: 15%}
     .homesection p{width: 50%;margin-top: 5%;}
     
     #menuBtn{float: right; font-size: 1.3em;}
 }
-
+@media screen and (min-width:1024px){
+    .homesection {text-align: left; height: 96% }
+ 
+}
 
 
 /* The Overlay (background) */
@@ -481,12 +485,12 @@ a, a:hover{text-decoration: none;}
     font-size: 1.1em;
     color: #000000;
     margin-top: 8%;
-   
+   animation-delay: 0.5s;
     
   
 }
 
-#bright{max-width: 100%;height: auto; display: none;}
+#bright{max-width: 100%;height: auto; display: none; }
 
 
 @media screen and (min-width:768px){
