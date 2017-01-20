@@ -64,12 +64,12 @@ $("#delay-3").animated("zoomInRight", "bounceOutDown");
 
 $("#delay-4").animated("zoomInLeft", "bounceOutDown");
 
+$("#bright").animated("slideInLeft", "bounceOutDown");
 
 
+$(".PortfolioShowcase h1").animated("lightSpeedIn", "bounceOutDown");
 
-
-
-
+$(".PortfolioShowcase p").animated("rotateIn", "bounceOutDown");
 
 // SLIDER PORTFOLIO 
 

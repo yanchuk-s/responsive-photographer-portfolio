@@ -228,6 +228,7 @@ a, a:hover{text-decoration: none;}
     background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    z-index: 9999;
 }
 
 /* Position the content inside the overlay */
@@ -237,6 +238,7 @@ a, a:hover{text-decoration: none;}
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    z-index: 9999;
 }
 
 /* The navigation links inside the overlay */
@@ -373,7 +375,7 @@ a, a:hover{text-decoration: none;}
 }
 
 #onumb{width: 70%; display: none;}
-#numbO{max-width: 40%;height: auto; position: relative; margin-top: -100%; z-index: 8888;}
+#numbO{max-width: 40%;height: auto; position: relative; margin-top: -100%; z-index: 7777;}
 @media screen and (min-width:768px){
     #onumb{display: block;}
 }
@@ -404,7 +406,7 @@ a, a:hover{text-decoration: none;}
   font-size: 1.2em;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-    z-index: 9999;
+    z-index: 8888;
 }
 .prev{left: 0;}
 
@@ -449,3 +451,58 @@ a, a:hover{text-decoration: none;}
 }
 
 /*------ SLIDER END ---------*/
+
+.PortfolioShowcase{
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: auto;
+    width: 96%;
+  	min-height: 96%;
+    height: auto;
+	background: white url(../img/bg3.png) no-repeat center ;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+}
+
+.PortfolioShowcase h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 10%;
+   
+}
+
+.PortfolioShowcase p{
+    font-family: 'Courgette', cursive;
+    font-size: 1.1em;
+    color: #000000;
+    margin-top: 8%;
+   
+    
+  
+}
+
+#bright{max-width: 100%;height: auto; display: none;}
+
+
+@media screen and (min-width:768px){
+     .col-6{width: 50%; }
+    
+    .PortfolioShowcase h1{
+        font-size: 2.2em;
+        margin-top: 20%;
+    }
+    #PortfolioShowcase-h1-p{text-align: left;}
+    #bright{display: block; margin-top: 40%;}
+}
+
+@media screen and (min-width:1024px){
+    #bright{display: block; margin-top: 20%;}
+   
+    .PortfolioShowcase h1{font-size: 2.5em;}
+    .PortfolioShowcase p {font-size: 1.2em; margin-top: 15%;}
+}
