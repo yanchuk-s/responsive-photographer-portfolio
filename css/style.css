@@ -510,3 +510,70 @@ a, a:hover{text-decoration: none;}
     .PortfolioShowcase h1{font-size: 2.5em;}
     .PortfolioShowcase p {font-size: 1.2em; margin-top: 15%;}
 }
+
+
+
+
+.secondportfolio{
+
+      margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: auto;
+    width: 96%;
+ 
+    height: auto;
+	background: white url(../img/bg4.png) no-repeat center ;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+
+}
+@media screen and (min-width:1024px){
+    .secondportfolio {height: 96%;}
+}
+
+.gallery{
+  width: auto;
+  margin: auto;
+  margin-top: 4%;
+    
+}
+
+#secportf1{animation-delay: 0.1s}
+
+#secportf2{animation-delay: 0.2s}
+#secportf3{animation-delay: 0.3s}
+#secportf4{animation-delay: 0.4s}
+#secportf5{animation-delay: 0.5s}
+#secportf6{animation-delay: 0.6s}
+#secportf7{animation-delay: 0.7s}
+#secportf8{animation-delay: 0.8s}
+
+
+
+
+
+
+.galer img{
+    margin-top: 2%;
+ width: 8%;
+ height: 8%;
+   overflow: hidden;
+  cursor: pointer;
+    margin-bottom: 3%;
+}
+
+.galer img:hover{border:2px solid #f55}
+.show img{
+  box-shadow: 0 0 19px rgba(0,0,0,0.5);
+	max-height: 50%;
+	max-width: 50%;
+  
+   
+}
+
+
+.qwe{height: 100%;}

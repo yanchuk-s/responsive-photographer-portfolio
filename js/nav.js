@@ -22,4 +22,24 @@ function openNav() {
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
-}
+};
+
+
+// POrtfolio SECOND
+
+// Gallery
+
+$(function () {
+  "use strict";
+  
+ $(".galer img").on({
+    click: function () {
+var src = $(this).attr("src");
+     $(".show img").attr("src", src)
+ },
+   mouseout: function () {
+   $(".show img")
+.attr("src", src)
+  }  
+  });
+});

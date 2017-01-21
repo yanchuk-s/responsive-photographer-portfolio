@@ -71,6 +71,19 @@ $(".PortfolioShowcase h1").animated("lightSpeedIn", "bounceOutDown");
 
 $(".PortfolioShowcase p").animated("fadeIn", "bounceOutDown");
 
+
+
+$(".secondportfolio img").animated("fadeIn", "bounceOutDown");
+
+
+$(".galer img").click(function () {
+      $(".show img").show("slow");
+});
+
+
+
+
+
 // SLIDER PORTFOLIO 
 
 var slideIndex = 1;
@@ -99,3 +112,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+
+
+
+
