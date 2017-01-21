@@ -138,7 +138,8 @@ a, a:hover{text-decoration: none;}
     width: 96%;
   	
     height: auto;
-	background: white url(../img/bg1.png) no-repeat center ;
+    
+	background: #efefef url(../img/bg1.png) no-repeat center ;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -214,7 +215,9 @@ a, a:hover{text-decoration: none;}
     #menuBtn{float: right; font-size: 1.3em;}
 }
 @media screen and (min-width:1024px){
-    .homesection {text-align: left; height: 96% }
+    .homesection {text-align: left; height: 96%;
+    
+    }
  
 }
 
@@ -291,7 +294,7 @@ a, a:hover{text-decoration: none;}
     width: 96%;
   	min-height: 96%;
     height: auto;
-	background: white url(../img/bg2.png) no-repeat center ;
+	background: #efefef url(../img/bg2.png) no-repeat center ;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -464,7 +467,7 @@ a, a:hover{text-decoration: none;}
     width: 96%;
   	min-height: 96%;
     height: auto;
-	background: white url(../img/bg3.png) no-repeat center ;
+	background: #efefef url(../img/bg3.png) no-repeat center ;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -523,7 +526,7 @@ a, a:hover{text-decoration: none;}
     width: 96%;
  
     height: auto;
-	background: white url(../img/bg4.png) no-repeat center ;
+	background: #efefef url(../img/bg4.png) no-repeat center ;
 	background-size: cover;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -551,7 +554,7 @@ a, a:hover{text-decoration: none;}
 #secportf6{animation-delay: 0.6s}
 #secportf7{animation-delay: 0.7s}
 #secportf8{animation-delay: 0.8s}
-
+#secportf9{animation-delay: 0.9s}
 
 
 
@@ -576,4 +579,89 @@ a, a:hover{text-decoration: none;}
 }
 
 
-.qwe{height: 100%;}
+.contactsection{
+
+      margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: auto;
+    width: 96%;
+ 
+    height: auto;
+	background: #efefef url(../img/bg5.png) no-repeat center ;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+
+}
+
+
+
+
+.contactsection h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 6%;
+    
+    
+}
+
+.contactsection p{
+    font-family: 'Courgette', cursive;
+    font-size: 1em;
+    color: #000000;
+    margin-top: 5%;
+    
+    
+}
+
+
+.email{width: 90%; padding: 3% 1%; margin-top: 2%; background: none; border: 1px #020202 solid; color: #020202; animation-delay: 0.2s;  }
+.sub{width: 90%; padding: 3% 1%;margin-top: 2%; background: none; border: 1px #020202 solid; color: #020202;animation-delay: 0.2s; }
+.Message{width: 90%;padding: 10% 1%;margin-top: 2%; background: none; border: 1px #020202 solid; color: #020202; animation-delay: 0.4s; }
+
+.send{width: 90%; padding: 3%; background-color: #020202; color: white; border: none; margin-top: 1%;margin-bottom: 3%; cursor: pointer;
+
+animation-delay: 0.6s;
+}
+
+.email:hover{box-shadow: 0 0 19px rgba(0,0,0,0.5);}
+.email:focus{box-shadow: 0 0 19px rgba(0,0,0,0.5);}
+
+.sub:hover{box-shadow: 0 0 19px rgba(0,0,0,0.5);}
+.sub:focus{box-shadow: 0 0 19px rgba(0,0,0,0.5);}
+
+.Message:hover{box-shadow: 0 0 19px rgba(0,0,0,0.5);}
+.Message:focus{box-shadow: 0 0 19px rgba(0,0,0,0.5);}
+
+.send:hover{box-shadow: 0 0 19px rgba(0,0,0,0.5);}
+
+
+@media screen and (min-width:768px){
+  
+    .contactsection h1{font-size: 2.2em; margin-top: 8%}
+    .contactsection p{margin-top: 3%;}
+    
+    #menuBtn{float: right; font-size: 1.3em;}
+    
+    .email{width: 43%; margin-right: 2%; padding: 2% 1%;}
+    .sub{width: 43%; margin-left: 2%;  padding: 2% 1%;}
+    .Message{ padding: 5%;}
+    .send{padding: 2%;}
+}
+
+
+
+@media screen and (min-width:1024px){
+   .contactsection {height: 96%;}
+ .contactsection h1{font-size: 2.5em;margin-top: 3%}
+    .contactsection p {font-size: 1.2em;margin-top: 2%;}
+    
+    .email{width: 24%; margin-right: 1%; padding: 1% 1%;border: 2px #020202 solid;}
+    .sub{width: 24%; margin-left: 1%;  padding: 1% 1%;border: 2px #020202 solid;}
+    .Message{width: 50%; padding: 5%;border: 2px #020202 solid;}
+    .send{width: 50%; padding: 1%;}
+}

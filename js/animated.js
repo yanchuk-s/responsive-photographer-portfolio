@@ -76,11 +76,10 @@ $(".PortfolioShowcase p").animated("fadeIn", "bounceOutDown");
 $(".secondportfolio img").animated("fadeIn", "bounceOutDown");
 
 
-$(".galer img").click(function () {
-      $(".show img").show("slow");
-});
-
-
+$(".email").animated("fadeInUp", "bounceOutDown");
+$(".sub").animated("fadeInUp", "bounceOutDown");
+$(".Message").animated("fadeInUp", "bounceOutDown");
+$(".send").animated("fadeInUp", "bounceOutDown");
 
 
 
